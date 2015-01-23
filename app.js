@@ -53,7 +53,6 @@ app.post('/petForm', function(req, res){
 
 app.get('/', function(req, res){
     res.sendFile('index.html', options);
-//    console.log(tools.addFive(4));
 });
 
 // Wildcard catches requests for non-existent routes or files and responds with a 404 message (or an html page if you want to make a custom one!)

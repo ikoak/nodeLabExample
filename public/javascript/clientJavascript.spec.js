@@ -9,9 +9,16 @@ describe('testing basic functions', function(){
         expect(returnKittens()).toBe("kittens");
     });
 
-    //this test should fail.
+    //this test should now pass.
     it('this test should fail!', function(){
-        expect(returnKittens()).toBe("Not Kittens!");
+        expect(returnKittens()).not.toBe("Not Kittens!");
     });
+
+    //this tests the isYelling function
+    it('isYelling should return true iff the argument string ends with an exclamation mark', function(){
+            expect(isYelling("Word!")).toBeTruthy();
+            expect(isYelling("Honey Badger")).toBeFalsy();
+    });
+
 });
 

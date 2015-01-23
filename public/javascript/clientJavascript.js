@@ -29,3 +29,13 @@ var returnKittens = function(){
     return "kittens";
 };
 
+
+/**
+ * Takes a string, returns true if the string ends with an exclamation, otherwise false.
+ *
+ * @returns {boolean}  - returns true or false
+ */
+var isYelling = function(str){
+    return str.charAt(str.length - 1) == '!';
+};
+
