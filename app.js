@@ -55,6 +55,10 @@ app.get('/GPA', function(req, res){
     res.sendFile('GPA.html', options);
 });
 
+app.post('/GPA', function(req, res){
+    res.send("Average GPA: 5.0");// + tools.calculateGPA(req.LetterGrade1, req.NumberOfCredits1, req.LetterGrade2, req.NumberOfCredits2, req.LetterGrade3, req.NumberOfCredits3));
+});
+
 app.get('/', function(req, res){
     res.sendFile('index.html', options);
 });
