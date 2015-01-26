@@ -3,9 +3,7 @@
  */
 
 var letterToNum = function(letter) {
-    console.log("HERE WE GO");
     letter = letter.toUpperCase();
-    console.log(letter);
     switch(letter) {
         case "A":
             return 4.0;
