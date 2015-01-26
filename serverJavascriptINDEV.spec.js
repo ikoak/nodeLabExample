@@ -18,6 +18,10 @@ describe('testing calculateGPA', function(){
     it('should return the correct GPA when averaging grades', function(){
         expect(calculateGPA("c", 2, "c", 4, "D", 4)).toEqual(1.6);
     });
+
+    it('should return the correct GPA when averaging grades', function(){
+        expect(calculateGPA("c", "2", "c", "4", "D", "4")).toEqual(1.6);
+    });
 });
 
 describe('testing letterToNum', function(){
