@@ -4,7 +4,7 @@
 /**
  * Takes no arguments, and creates a javascript alert in the client's browser.
  */
-var sendAlert = function(){
+var sendAlert = function() {
     alert("THIS IS AN ALERT!");
 };
 
