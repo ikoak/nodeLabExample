@@ -27,8 +27,8 @@ var letterToNum = function(letter){
 }
 
 exports.calculateGPA = function(grade1, credits1, grade2, credits2, grade3, credits3){
-    var totalCredits = credits1 + credits2 + credits3;
-    return ((letterToNum(grade1) * credits1) + (letterToNum(grade2) * credits2) + (letterToNum(grade3) * credits3)) / totalCredits;
+    var totalCredits = Number(credits1) + Number(credits2) + Number(credits3);
+    return (((letterToNum(grade1) * credits1) + (letterToNum(grade2) * credits2) + (letterToNum(grade3) * credits3)) / totalCredits);
 }
 
 
