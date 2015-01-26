@@ -15,7 +15,7 @@ var sendAlert = function(){
  * @param str  - the string to have its length returned
  * @returns {*}  - an integer, the length of the string
  */
-var testStringLength = function(str){
+var testStringLength = function(str) {
     return str.length;
 };
 
@@ -25,7 +25,7 @@ var testStringLength = function(str){
  *
  * @returns {string}  - returns "kittens"
  */
-var returnKittens = function(){
+var returnKittens = function() {
     return "kittens";
 };
 
@@ -35,7 +35,7 @@ var returnKittens = function(){
  *
  * @returns {boolean}  - returns true or false
  */
-var isYelling = function(str){
+var isYelling = function(str) {
     return str.charAt(str.length - 1) == '!';
 };
 
